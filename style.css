@@ -1,0 +1,148 @@
+:root {
+    --white: #F4F4F4;
+    --black: black;
+    --purple: #AC3BD4;
+    --green: #B4E85C;
+    --gray: #4d4d4d;
+    --texth1: 36px;
+    --texth2: 23px;
+    --text18: 18px;
+    --text16: 16px;
+    --weight16: 400;
+    --weight18: 500;
+    --weightH2: 600;
+    --weightH1: 700;
+}
+body, button {
+    font-family: "Montserrat", sans-serif;
+}
+body, html {
+    width: 100%;
+    background-color: var(--green);
+}
+h1 {
+    font-size: var(--texth1);
+    margin-bottom: 70px;
+}
+h2 {
+    font-size: var(--texth2);
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    height: 88px;
+}
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1520px;
+    margin: 0 auto;
+}
+.info_menu {
+    display: flex;
+    align-items: center;
+}
+.menu_items {
+    width: 881px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li a{
+    font-size: var(--text18);
+    font-weight: 500;
+    color: var(--black);
+}
+.button_start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+.language_block {
+    display: flex;
+    width: 108px;
+    color: var(--black);
+    justify-content: space-between;
+    margin-right: 24px;
+}
+.btn_launch {
+    padding: 8px 18px;
+    border-radius: 5px;
+    border-style: none;
+    color: var(--white);
+    font-size: var(--text18);
+    font-weight: 500;
+    background-color: var(--purple);
+}
+#btn_launch {
+    padding: 8px 18px;
+    border-radius: 5px;
+    border-style: none;
+    color: var(--white);
+    font-size: var(--text18);
+    font-weight: 500;
+    background-color: var(--gray);
+}
+.python-block {
+    margin: 100px 0px;
+}
+.python-wrapper {
+    display: flex;
+    width: 1520px;
+    height: 290px;
+    margin: 0 auto;
+    background-color: var(--white);
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+.python-content {
+    display: flex;
+    width: 1411px;
+    justify-content: space-between;
+}
+.python-b1 {
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    justify-content: space-between;
+}
+#python-btn {
+    display: flex;
+    flex-direction: column;
+    height: 81px;
+    justify-content: space-between;
+}
+.python-svg {
+    display: flex;
+}
+.python-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 230px;
+}
+.prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 22px;
+}
+#oldprice {
+    font-size: var(--text18);
+    color: var(--gray);
+    text-decoration: line-through;
+    font-weight: 500;
+}
+#newprice {
+    font-size: var(--texth2);
+    color: var(--black);
+    font-weight: 600;
+}
