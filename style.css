@@ -146,3 +146,40 @@ li a{
     color: var(--black);
     font-weight: 600;
 }
+.programs {
+    margin-bottom: 100px;
+}
+.programs-wrapper {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 1520px;
+}
+.program-list {
+    display: flex;
+    justify-content: space-between;
+}
+.program-card {
+    display: flex;
+    width: 493px;
+    height: 700px;
+    background-color: var(--white);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.program-content h2 {
+    margin-top: 30px;
+}
+.program-content p {
+    width: 350px;
+    margin: 30px 0px;
+}
+.program-button {
+    display: flex;
+    margin: 30px 0px;
+    justify-content: space-between;
+}
+.program-button .btn_launch,#btn_launch {
+    width: 200px;
+}
