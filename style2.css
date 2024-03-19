@@ -1,0 +1,111 @@
+:root {
+    --white: #F4F4F4;
+    --black: black;
+    --purple: #AC3BD4;
+    --green: #B4E85C;
+    --texth1: 36px;
+    --texth2: 23px;
+    --text18: 18px;
+    --text16: 16px;
+    --weight16: 400;
+    --weight18: 500;
+    --weightH2: 600;
+    --weightH1: 700;
+}
+body, button {
+    font-family: "Montserrat", sans-serif;
+}
+body, html {
+    width: 100%;
+    background-color: var(--green);
+}
+h1 {
+    font-size: var(--texth1);
+    margin-bottom: 70px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    height: 88px;
+}
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1520px;
+    margin: 0 auto;
+}
+.info_menu {
+    display: flex;
+    align-items: center;
+}
+.menu_items {
+    width: 881px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li a{
+    font-size: var(--text18);
+    font-weight: 500;
+    color: var(--black);
+}
+.button_start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+.language_block {
+    display: flex;
+    width: 108px;
+    color: var(--black);
+    justify-content: space-between;
+    margin-right: 24px;
+}
+.btn_launch {
+    padding: 8px 18px;
+    border-radius: 5px;
+    border-style: none;
+    color: var(--white);
+    font-size: var(--text18);
+    font-weight: 500;
+    background-color: var(--purple);
+}
+#btn_launch {
+    padding: 8px 18px;
+    border-radius: 5px;
+    border-style: none;
+    color: var(--white);
+    font-size: var(--text18);
+    font-weight: 500;
+    background-color: var(--gray);
+}
+.gallery {
+    margin: 100px 0px;
+}
+.gallery-content {
+    display: flex;
+    width: 1520px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+    border-radius: 5px;
+    width: 240px;
+    height: 160px;
+    align-items: center;
+}
+.card img {
+    height: 160px;
+}
+#cs,#java,#js,#ruby {
+    height: 120px;
+}
